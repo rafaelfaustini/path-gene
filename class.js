@@ -15,13 +15,13 @@ class elemento(){
 
   }
 
-  Fitness(tamanho){
+  Fitness(canvas,tamanho){
     var fitness = 0;
 
-    baruffi = (100 * x) / width;
+    baruffi = (100 * x) / canvas.width;
     var n = 2;
     baruffi *= 7.5;
-    var half_height = height / 2;
+    var half_height = canvas.height / 2;
 
     var baruffi2 = Math.pow((y - half_height), 2);
     baruffi2 = 1 / (baruffi2 + 1);
