@@ -2,7 +2,7 @@ var populacao;
 function setup() {
 
   createCanvas(400, 400);
-  populacao = new Populacao(1,5,25)
+  populacao = new Populacao(1,2,25)
 
 }
 
