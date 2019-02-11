@@ -42,7 +42,7 @@ function criar_inicial(tamanho) {
     var pessoa = function(x, y, seq, fitness, finish) { // Colocar o objeto pessoa no vetor
       this.x = 0;
       this.y = 200;
-      this.seq = "" + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4));;
+      this.seq = "" + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4)) + int(random(0, 4));
       this.fitness = 0;
       this.finish = false;
 
